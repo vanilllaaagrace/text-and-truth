@@ -206,9 +206,8 @@ function ContextPanel({ verse, onClose }: { verse: Verse | null; onClose: () => 
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground italic">{a.source}</span>
                 </div>
-                <div className="mt-2 flex items-center gap-2">
-                  <span className="font-medium">{a.author.name}</span>
-                  <FlairBadge flair={a.author.flair} />
+                <div className="mt-2">
+                  <UserMeta user={a.author} compact />
                 </div>
               </div>
             </div>
