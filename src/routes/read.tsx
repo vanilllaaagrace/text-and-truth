@@ -9,7 +9,7 @@ import {
   type Translation,
   type Verse,
 } from "@/data/scripture";
-import { FlairBadge } from "@/components/Flair";
+import { UserMeta } from "@/components/Flair";
 
 export const Route = createFileRoute("/read")({
   component: Reader,
