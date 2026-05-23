@@ -5,8 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-display: "Instrument Serif", "Cormorant Garamond", Georgia, serif;
-  --font-sans: "Work Sans", "Inter", system-ui, sans-serif;
+  --font-display: "Baskerville", "Libre Baskerville", "Times New Roman", "Georgia", serif;
+  --font-sans: "Georgia", "Baskerville", "Times New Roman", serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
   --radius-sm: calc(var(--radius) - 4px);
