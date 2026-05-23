@@ -216,10 +216,9 @@ function ContextPanel({ verse, onClose }: { verse: Verse | null; onClose: () => 
           comments.length === 0 ? <Empty text="No comments on this verse yet." /> :
           comments.map((c) => (
             <div key={c.id} className="rounded-xl border bg-card p-4">
-              <div className="flex items-center gap-2">
-                <span className="text-sm font-medium">{c.author.name}</span>
-                <FlairBadge flair={c.author.flair} />
-                <span className="ml-auto rounded-full border px-2 py-0.5 text-[10px] font-mono">
+              <div className="flex items-start gap-2">
+                <UserMeta user={c.author} compact />
+                <span className="ml-auto rounded-full border px-2 py-0.5 text-[10px] font-mono whitespace-nowrap">
                   {c.translation} · {c.language}
                 </span>
               </div>
