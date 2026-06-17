@@ -9,7 +9,7 @@ export const Route = createFileRoute("/community")({
   component: Community,
   head: () => ({
     meta: [
-      { title: "Community — AtomsAndEve" },
+      { title: "The Lounge — AtomsAndEve" },
       { name: "description", content: "Color-coded by category — Family & Culture, Personal Stories, Theology & Logic, Media & Resources, General Q&A." },
     ],
   }),
@@ -120,8 +120,8 @@ function Community() {
       <div className="mx-auto max-w-3xl px-5 pt-12 pb-24">
         <div className="flex items-end justify-between gap-4">
           <div>
-            <div className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground">The Stream</div>
-            <h1 className="mt-1 font-display text-5xl md:text-6xl leading-none">Community</h1>
+            <div className="text-[11px] uppercase tracking-[0.22em] text-muted-foreground">The Lounge</div>
+            <h1 className="mt-1 font-display text-5xl md:text-6xl leading-none">The Lounge</h1>
             <p className="mt-3 text-muted-foreground max-w-md italic">Pick a category. Drop your story. No downvotes — ever.</p>
           </div>
           <button className="hidden md:inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm text-background hover:opacity-90">

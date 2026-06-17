@@ -35,10 +35,10 @@ function Landing() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/read" className="group inline-flex items-center gap-2 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background hover:opacity-90 transition">
-              <BookOpen className="h-4 w-4" /> Open the Bible Engine
+              <BookOpen className="h-4 w-4" /> Open The Precipice
             </Link>
             <Link to="/community" className="inline-flex items-center gap-2 rounded-full border border-foreground/20 bg-card px-6 py-3 text-sm font-medium hover:bg-accent transition">
-              <MessagesSquare className="h-4 w-4" /> Visit the Community
+              <MessagesSquare className="h-4 w-4" /> Visit The Lounge
             </Link>
           </div>
         </motion.div>
@@ -69,7 +69,7 @@ function Landing() {
             className="mt-5 ml-12 w-64 rounded-2xl p-5 shadow-card"
             style={{ background: "color-mix(in oklab, var(--terracotta) 50%, white)" }}
           >
-            <div className="text-[10px] uppercase tracking-widest opacity-70">Community · Terracotta</div>
+            <div className="text-[10px] uppercase tracking-widest opacity-70">The Lounge · Terracotta</div>
             <p className="mt-2 font-display text-lg leading-snug text-terracotta-foreground">
               "Mum quoted Proverbs 22:6 to me again at Christmas dinner."
             </p>
@@ -82,14 +82,14 @@ function Landing() {
       <section className="border-y bg-parchment/60">
         <div className="mx-auto grid max-w-6xl gap-px bg-border md:grid-cols-2">
           <WorldCard
-            kicker="Part 1 — The Bible Engine"
+            kicker="Part 1 — The Precipice"
             title="A quiet, scholarly room."
             body="Pick a translation. Click any verse. A sidebar opens with verified historical context — translation errors, internal contradictions, scientific disputes — every claim cited and peer-reviewed by 5 trusted readers."
             cta={{ label: "Open the reader", to: "/read" }}
             tone="ink"
           />
           <WorldCard
-            kicker="Part 2 — The Community Stream"
+            kicker="Part 2 — The Lounge"
             title="A loud, colorful kitchen table."
             body="Pick a mood color when you post. Sage for the calm questions. Terracotta for the family-shaped wounds. Ochre for the wins. Every comment is tagged with its translation and language so context never gets lost."
             cta={{ label: "See the stream", to: "/community" }}
