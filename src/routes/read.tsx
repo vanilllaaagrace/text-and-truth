@@ -151,7 +151,7 @@ function ContextPanel({ verse, onClose }: { verse: Verse | null; onClose: () => 
           </div>
           <p className="mt-4 font-display text-2xl leading-tight">Pick a verse.</p>
           <p className="mt-2 text-sm text-muted-foreground">
-            Verified annotations on the left tab. Community on the right.
+            Verified annotations on the left tab. The Lounge on the right.
           </p>
         </div>
       </div>
@@ -180,7 +180,7 @@ function ContextPanel({ verse, onClose }: { verse: Verse | null; onClose: () => 
         </TabButton>
         <TabButton active={tab === "comments"} onClick={() => setTab("comments")}>
           <Languages className="h-3.5 w-3.5" />
-          Community <span className="text-muted-foreground">({comments.length})</span>
+          The Lounge <span className="text-muted-foreground">({comments.length})</span>
         </TabButton>
       </div>
 
